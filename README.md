@@ -6,11 +6,11 @@
 
 | Страница | Путь |
 |---|---|
-| Список вакансий | `/` |
-| Менеджер по контролю качества | `/vakansii/menedzher-po-kontrolyu-kachestva/` |
+| Вакансия «Менеджер по контролю качества» | `/vakansii/` |
+| Корень и старый адрес | перенаправляют на `/vakansii/` |
 | Согласие на обработку ПД | `/soglasie/` |
 
-Ссылку для Instagram удобно давать с меткой: `…/vakansii/menedzher-po-kontrolyu-kachestva/?utm_source=instagram` — источник попадёт в анкету.
+Ссылку для Instagram удобно давать с меткой: `…/pifagor/vakansii/?utm_source=instagram` — источник попадёт в анкету.
 
 ## Куда приходят анкеты
 

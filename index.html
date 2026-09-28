@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Вакансии онлайн-школы «Пифагор»</title>
+  <meta name="description" content="Работа в онлайн-школе «Пифагор»: удалённо, гибкий график, официальное оформление.">
+  <meta name="theme-color" content="#1a547e">
+  <meta property="og:title" content="Вакансии онлайн-школы «Пифагор»">
+  <meta property="og:description" content="Удалённая работа в растущей онлайн-школе. Можно без опыта.">
+  <meta property="og:image" content="https://nikolajcikstas.github.io/anketa-pifagor/assets/og-vacancy.jpg">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .jobs { display: grid; gap: 18px; }
+    .job { display: grid; grid-template-columns: 1fr auto; gap: 18px; align-items: center; background: #fff; border: 1px solid var(--line); border-radius: 20px; padding: 26px 28px; text-decoration: none; color: var(--text); box-shadow: 0 12px 34px rgba(18,59,94,.07); transition: transform .2s, box-shadow .2s; }
+    .job:hover { transform: translateY(-3px); box-shadow: 0 18px 40px rgba(18,59,94,.12); }
+    .job h2 { font-family: var(--font-head); font-weight: 400; letter-spacing: -.04em; font-size: clamp(22px, 2.6vw, 30px); margin: 0 0 10px; line-height: 1.1; }
+    .job .tags { display: flex; flex-wrap: wrap; gap: 8px; }
+    .job .tag { background: var(--bg-card); color: var(--navy-deep); padding: 6px 12px; border-radius: 8px; font-size: 16px; }
+    .job .tag--gold { background: var(--gold-soft); color: #8a5d00; }
+    @media (max-width: 600px) { .job { grid-template-columns: 1fr; padding: 22px 18px; } .job .btn { width: 100%; } }
+  </style>
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="https://pifagor.by/" aria-label="Онлайн-школа «Пифагор» — на главную"><img src="assets/logo.png" alt="Пифагор" width="57" height="52"></a>
+    <nav class="header-nav"><a class="phone" href="tel:+375447932870">+375 44 793 28 70</a><a class="btn-header" href="https://pifagor.by/">pifagor.by</a></nav>
+  </div>
+</header>
+<main>
+  <section class="hero" style="padding-bottom:90px">
+    <div class="container" style="grid-template-columns:1fr">
+      <div>
+        <div class="hero-badge"><span class="dot"></span> Карьера в «Пифагоре»</div>
+        <h1>Работа в&nbsp;онлайн-школе <span class="accent">«Пифагор»</span></h1>
+        <p class="hero-lead">Мы растём и ищем людей в команду. Удалённо, с гибким графиком и официальным оформлением.</p>
+      </div>
+    </div>
+  </section>
+  <svg class="wave" viewBox="0 0 1440 46" preserveAspectRatio="none" aria-hidden="true"><path d="M0 22 C 60 4, 120 4, 180 22 S 300 40, 360 22 S 480 4, 540 22 S 660 40, 720 22 S 840 4, 900 22 S 1020 40, 1080 22 S 1200 4, 1260 22 S 1380 40, 1440 22 V 46 H 0 Z" fill="#fff"/><path d="M0 22 C 60 4, 120 4, 180 22 S 300 40, 360 22 S 480 4, 540 22 S 660 40, 720 22 S 840 4, 900 22 S 1020 40, 1080 22 S 1200 4, 1260 22 S 1380 40, 1440 22" fill="none" stroke="#f9ab01" stroke-width="12"/></svg>
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Открытые вакансии</h2>
+      <p class="section-sub">Выберите вакансию, чтобы узнать подробности и заполнить анкету.</p>
+      <div class="jobs">
+        <a class="job" href="vakansii/menedzher-po-kontrolyu-kachestva/">
+          <div>
+            <h2>Менеджер по контролю качества</h2>
+            <div class="tags"><span class="tag">Удалённо</span><span class="tag">4–6 часов в день</span><span class="tag">Гибкий график</span><span class="tag tag--gold">Можно без опыта</span></div>
+          </div>
+          <span class="btn btn-navy">Подробнее</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-legal">ООО «Пифагор Центр», УНП 193900047 · 220019 г. Минск, ул. Сухаревская, д. 16 · <a href="mailto:pifagor.by@gmail.com" style="color:#fff">pifagor.by@gmail.com</a></div>
+    <div class="copyright">© 2026 Онлайн-школа «Пифагор». Понимай, за что платишь.</div>
+  </div>
+</footer>
+</body>
+</html>
